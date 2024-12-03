@@ -3,39 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-    </style>
+    <meta name="description" content="Hari Nusantara 2024 - Merayakan keberagaman budaya dan kekayaan alam Indonesia." />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/logo-hari-nusantara.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/general.css" />
     <link rel="stylesheet" href="/css/landing-page.css" />
     <link rel="stylesheet" href="/css/beranda.css" />
     <link rel="stylesheet" href="/css/tradisi-budaya.css" />
+    <link rel="stylesheet" href="/css/jadwal-acara.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
 
-    <title>Welcome</title>
+    <title>Hari Nusantara 2024</title>
   </head>
   <body>
-    <!-- hero -->
+    <!-- Hero Section -->
     <section class="hero">
       <div class="hero-content">
-        <img src="/assets/logo-hari-nusantara.png" alt="logo hari nusantara" />
+        <img
+          src="/assets/logo-hari-nusantara.png"
+          alt="Logo Hari Nusantara"
+          class="hero-logo"
+        />
         <h1>Menjelajahi Kekayaan Samudera dan Budaya Nusantara</h1>
         <p>
           Samudera menyimpan sejuta kekayaan alam, sejarah, dan budaya yang
           menyatukan seluruh Nusantara.
         </p>
         <div class="buttons">
-          <button class="btn primary">Peta Nusantara</button>
-          <button class="btn secondary">Lihat Lebih Banyak</button>
+          <a href="/pages/peta-nusantara.html" class="btn primary">Peta Nusantara</a>
+          <a href="#" class="btn secondary">Lihat Lebih Banyak</a>
         </div>
       </div>
     </section>
 
-    <!-- beranda -->
+    <!-- Beranda Section -->
     <section class="beranda">
       <div class="text-section">
         <h4 class="tag">Persatuan dalam Keberagaman</h4>
         <h2 class="headline">
           Hari Nusantara menjadi pengingat akan pentingnya kebersamaan dalam
-          keberagaman budaya dan tradisi
+          keberagaman budaya dan tradisi.
         </h2>
         <div class="point">
           <span class="icon">🇮🇩</span>
@@ -43,7 +63,7 @@
             <h4>Simbol Persatuan Bangsa</h4>
             <p>
               Hari Nusantara menegaskan pentingnya kolaborasi antar pulau,
-              memperkuat solidaritas sebagai satu bangsa
+              memperkuat solidaritas sebagai satu bangsa.
             </p>
           </div>
         </div>
@@ -54,7 +74,7 @@
             <p>
               Dari Sabang hingga Merauke, Hari Nusantara merayakan identitas
               unik yang membentuk kekayaan warisan budaya kita, bersatu dalam
-              satu visi
+              satu visi.
             </p>
           </div>
         </div>
@@ -80,11 +100,15 @@
         </div>
       </div>
       <div class="image-section">
-        <img src="/assets/phinisi.jpg" alt="Perahu di Laut Nusantara" />
+        <img
+          src="/assets/phinisi.jpg"
+          alt="Perahu di Laut Nusantara"
+          class="beranda-image"
+        />
       </div>
     </section>
 
-    <!-- budaya dan tradisi -->
+    <!-- Budaya dan Tradisi Section -->
     <section class="budaya-tradisi">
       <div class="text">
         <h4>Tradisi menyatukan bangsa</h4>
@@ -92,37 +116,159 @@
       </div>
       <div class="horizontal-scroll">
         <div class="photos-item">
-          <img src="/assets/bg-landing-page.jpg" alt="item-1">
-          <img src="/assets/bg-landing-page.jpg" alt="item-2">
-          <img src="/assets/bg-landing-page.jpg" alt="item-3">
-          <img src="/assets/bg-landing-page.jpg" alt="item-4">
-          <img src="/assets/bg-landing-page.jpg" alt="item-5">
-          <img src="/assets/bg-landing-page.jpg" alt="item-6">
-          <img src="/assets/bg-landing-page.jpg" alt="item-7">
+          <img src="/assets/bg-landing-page.jpg" alt="Tradisi 1" />
+          <img src="/assets/bg-landing-page.jpg" alt="Tradisi 2" />
+          <img src="/assets/bg-landing-page.jpg" alt="Tradisi 3" />
+          <img src="/assets/bg-landing-page.jpg" alt="Tradisi 4" />
+          <img src="/assets/bg-landing-page.jpg" alt="Tradisi 5" />
+          <img src="/assets/bg-landing-page.jpg" alt="Tradisi 6" />
+          <img src="/assets/bg-landing-page.jpg" alt="Tradisi 7" />
         </div>
       </div>
     </section>
 
-    <!-- jadwal hari nusantara -->
-     <section class="jadwal-hari-nusantara">
-      <div class="header">
-        <h4>Jadwal dan Rincian</h4>
-        <div>
-          <h2>Perayaan Hari Nusantara</h2>
-          <h4>Keberagaman laut dan budaya Nusantara merupakan fondasi kuat untuk mempererat persatuan bangsa</h4>
-        </div>
+    <!-- Jadwal Acara Section -->
+    <section class="jadwal-hari-nusantara">
+      <h4>Jadwal dan Rincian</h4>
+      <div class="text1">
+        <h2>Perayaan Hari Nusantara</h2>
+        <p>
+          Keberagaman laut dan budaya Nusantara adalah fondasi yang sangat kuat untuk mempererat persatuan bangsa, membangun solidaritas bersama
+        </p>
       </div>
-      <div class="jadwal">
-        <div class="img"></div>
-        <div class="info">
-          <h2>title</h2>
-          <div class="date-place">
-            <div>10 Desember 2024</div>
-            <div>Virtual</div>
+      <div class="event-grid">
+        <!-- Event Cards 1 -->
+        <div class="event-card">
+          <img
+            src="/assets/img-pameran.jpg"
+            alt="Pameran Virtual Nusantara"
+            class="event-image"
+          />
+          <div class="event-info">
+            <h3>Pameran Virtual Nusantara</h3>
+            <span class="event-date">10 Desember 2024</span>
+            <span class="event-location">Virtual</span>
+            <p>
+              Menampilkan foto, video, dan cerita budaya dari seluruh Indonesia.
+            </p>
           </div>
-          <p>deskripsi</p>
         </div>
+
+        <!-- Event Cards 2 -->
+        <div class="event-card">
+          <img
+            src="/assets/img-upacara.jpg"
+            alt="Pameran Virtual Nusantara"
+            class="event-image"
+          />
+          <div class="event-info">
+            <h3>Upacara Peringatan Hari Nusantara</h3>
+            <span class="event-date">13 Desember 2024</span>
+            <span class="event-location">Pantai Daerah</span>
+            <p>
+              Menampilkan foto, video, dan cerita budaya dari seluruh Indonesia.
+            </p>
+          </div>
+        </div>
+
+        <!-- Event Cards 3 -->
+        <div class="event-card">
+          <img
+            src="/assets/img-karnaval.jpg"
+            alt="Karnaval Budaya Laut"
+            class="event-image"
+          />
+          <div class="event-info">
+            <h3>Karnaval Budaya Laut</h3>
+            <span class="event-date">13 Desember 2024</span>
+            <span class="event-location">Pantai Daerah</span>
+            <p>
+              Parade kapal tradisional dihiasi seni dan budaya dari berbagai daerah
+            </p>
+          </div>
+        </div>
+
+        <!-- Event Cards 4 -->
+        <div class="event-card">
+          <img
+            src="/assets/img-kuliner.jpg"
+            alt="Pameran Virtual Nusantara"
+            class="event-image"
+          />
+          <div class="event-info">
+            <h3>Festival Kuliner Nusantara</h3>
+            <span class="event-date">13 Desember 2024</span>
+            <span class="event-location">Pantai Daerah</span>
+            <p>
+              Menyajikan makanan khas pesisir seperti ikan bakar, coto Makassar, hingga papeda
+            </p>
+          </div>
+        </div>
+
+        <!-- Event Cards 5 -->
+        <div class="event-card">
+          <img
+            src="/assets/img-tari.jpeg"
+            alt="Pentas Seni Budaya Laut"
+            class="event-image"
+          />
+          <div class="event-info">
+            <h3>Pentas Seni Budaya Laut</h3>
+            <span class="event-date">13 Desember 2024</span>
+            <span class="event-location">Pantai Daerah</span>
+            <p>
+              Pertunjukan tari tradisional yang terinspirasi dari laut, seperti Tari Cakalele
+            </p>
+          </div>
+        </div>
+
+        <!-- Event Cards 6 -->
+        <div class="event-card">
+          <img
+            src="/assets/img-konser.jpg"
+            alt="Penutupan dan Konser Musik"
+            class="event-image"
+          />
+          <div class="event-info">
+            <h3>Penutupan dan Konser Musik</h3>
+            <span class="event-date">13 Desember 2024</span>
+            <span class="event-location">Pantai Daerah</span>
+            <p>
+              Menampilkan foto, video, dan cerita budaya dari seluruh Indonesia.
+            </p>
+          </div>
+        </div>
+
       </div>
-     </section>
+      <div class="live-streaming">
+        <button class="btn">Ikuti Live Streaming</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <img
+          src="/assets/logo-hari-nusantara.png"
+          alt="Logo Hari Nusantara"
+          class="footer-logo"
+        />
+        <p class="footer-tagline">
+          “Merayakan keberagaman budaya dan kekayaan alam Indonesia”
+        </p>
+        <div class="footer-links">
+          <a href="#">Kebudayaan Indonesia</a>
+          <a href="#">Kementerian Maritim</a>
+          <a href="#">Pariwisata Indonesia</a>
+        </div>
+        <div class="footer-socials">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p class="footer-copyright">© 2024 Hari Nusantara</p>
+      </div>
+    </footer>
   </body>
 </html>
