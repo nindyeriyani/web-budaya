@@ -93,6 +93,7 @@ h1 {
   }
 }
 
+/* tooltip icon */
 .tooltip-container {
   /* position: relative;*/
   display: flex;
@@ -101,11 +102,7 @@ h1 {
   cursor: pointer;
 }
 
-.tooltip-container:hover .tooltip {
-  opacity: 1; /* Tooltip muncul ketika icon di-hover */
-}
-
-.tooltip {
+.tooltip-sumatra, .tooltip-jawa, .tooltip-kalimantan, .tooltip-nusa, .tooltip-sulawesi, .tooltip-maluku, .tooltip-papua {
   position: absolute;
   background-color: #fff;
   border-radius: 10px;
@@ -117,23 +114,59 @@ h1 {
   font-size: 12px;
   font-weight: 500;
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1);
-  left: 5%;
-  top: 48%;
-  opacity: 0; /* Tooltip disembunyikan secara default */
+  opacity: 0;
   transition: opacity 0.3s ease-in-out; /* Efek transisi saat muncul */
 }
 
-.tooltip-container .tooltip button {
+.tooltip-sumatra {
+  left: 5%;
+  top: 48%;
+}
+
+.tooltip-jawa {
+  left: 21%;
+  bottom: 5%;
+}
+
+.tooltip-nusa {
+  left: 53%;
+  bottom: 2%;
+}
+
+.tooltip-kalimantan {
+  left: 38%;
+  top: 13%;
+}
+
+.tooltip-sulawesi {
+  left: 48%;
+  bottom: 28%;
+}
+
+.tooltip-maluku {
+  right: 23%;
+  top: 30%;
+}
+
+.tooltip-papua {
+  right: 3%;
+  bottom: 16%;
+}
+
+.tooltip-container:hover .tooltip-sumatra, .tooltip-container:hover .tooltip-jawa, .tooltip-container:hover .tooltip-nusa, .tooltip-container:hover .tooltip-kalimantan, .tooltip-container:hover .tooltip-sulawesi, .tooltip-container:hover .tooltip-maluku, .tooltip-container:hover .tooltip-papua{
+  opacity: 1;
+}
+
+.tooltip-sumatra a, .tooltip-jawa a, .tooltip-nusa a, .tooltip-kalimantan a, .tooltip-sulawesi a, .tooltip-maluku a, .tooltip-papua a{
   background-color: transparent;
   border: none;
   font-size: 12px;
   margin-top: 20px;
   font-weight: 700;
+  text-decoration: none;
   cursor: pointer;
 }
 
-.tooltip-container .tooltip button:hover {
+.tooltip-sumatra a:hover, .tooltip-jawa a:hover, .tooltip-nusa a:hover, .tooltip-kalimantan a:hover, .tooltip-sulawesi a:hover, .tooltip-maluku a:hover, .tooltip-papua a:hover{
   text-decoration: underline;
 }
-
-

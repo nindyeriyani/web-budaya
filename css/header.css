@@ -1,0 +1,83 @@
+header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #fff;
+  font-weight: 500;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: transparent;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Saat Scroll */
+header.scrolled {
+  background-color: rgba(0 0 0 / 50%);
+}
+
+.right-section button {
+  background-color: #0077BE;
+  color: #fff;
+  border: none;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.left-section {
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  /* background-color: lightblue; */
+}
+
+.middle-section a {
+  padding: 10px;
+  font-size: 16px;
+  margin: 20px;
+  color: inherit;
+  cursor: pointer;
+  border: 1px solid transparent;
+  text-decoration: none;
+}
+
+.middle-section a:hover {
+  border: 1px solid #fff;
+}
+
+
+.right-section {
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.right-section a {
+  background-color: #0077BE;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 16px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.right-section a:hover {
+  opacity: 0.9;
+}
+
+.logo-nusantara {
+  height: 80px;
+  cursor: pointer;
+}
