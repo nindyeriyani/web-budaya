@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="/css/hero-section.css" />
     <link rel="stylesheet" href="/css/beranda.css" />
     <link rel="stylesheet" href="/css/sejarah-hero.css">
-    <link rel="stylesheet" href="/css/tradisi-budaya.css" />
+    <link rel="stylesheet" href="/css/galeri-alam.css" />
     <link rel="stylesheet" href="/css/jadwal-acara.css" />
     <link rel="stylesheet" href="/css/footer.css" />
 
@@ -41,24 +41,35 @@
   <body>
     <header>
       <div class="left-section">
-        <img class="logo-nusantara" src="/assets/logo-hari-nusantara.png" alt="logo-hari-nusantara">
+        <a href="#hero-content">
+          <img class="logo-nusantara" src="/assets/logo-hari-nusantara.png" alt="logo-hari-nusantara">
+        </a>
       </div>
-      
-      <div class="middle-section">
+    
+      <!-- Tambahkan ikon hamburger -->
+      <div class="hamburger-menu" id="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    
+      <!-- Navigasi utama -->
+      <nav class="middle-section" id="nav-menu">
         <a href="#beranda">Beranda</a>
         <a href="#sejarah">Sejarah</a>
-        <a href="#budaya-tradisi">Budaya & Tradisi</a>
-        <a href="#jadwal-hari-nusantara">Kegiatan</a>
-      </div>
-
+        <a href="#galeri-alam">Galeri</a>
+        <a href="#jadwal-hari-nusantara">Kegiatan Hari Nusantara</a>
+      </nav>
+    
       <div class="right-section">
         <a href="#jadwal-hari-nusantara">Ikuti Kegiatan</a>
       </div>
     </header>
+    
 
     <!-- Hero Section -->
     <section class="hero">
-      <div class="hero-content">
+      <div class="hero-content" id="hero-content">
         <h1>Menjelajahi Kekayaan Samudera dan Budaya Nusantara</h1>
         <p>
           Samudera menyimpan sejuta kekayaan alam, sejarah, dan budaya yang
@@ -136,26 +147,26 @@
     <section class="sejarah" id="sejarah">
       <div class="container-sejarah">
         <div class="text">
-          <h4>Sejarah</h4>
-          <h2>Jelajahi keberagaman budaya dari Sabang hingga Merauke</h2>
+          <h4>Keberagaman yang Menyatukan</h4>
+          <h2>Keberagaman budaya Nusantara, mempersatukan bangsa dalam harmoni</h2>
         </div>
         <div class="cards">
           <div class="card">
-            <img src="/assets/img-konser.jpg" alt="InDOnesia CARE">
+            <img src="https://imgx.parapuan.co/crop/0x0:0x0/x/photo/2022/08/17/whatsapp-image-2022-08-17-at-44-20220817094337.jpeg" alt="Perayaan Hari Nusantara">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed voluptate, accusantium recusandae, mollitia commodi pariatur esse voluptas eos ullam necessitatibus. Quasi, eum doloremque! Voluptatem mollitia ipsa repellendus excepturi cupiditate?
+              Laut adalah pemersatu bangsa dan simbol kejayaan maritim Indonesia. Sebagai negara kepulauan terbesar di dunia, laut bukan hanya menjadi penghubung antar pulau, tetapi juga menjadi lambang perjuangan dan harapan bagi rakyat Indonesia.
             </p>
           </div>
           <div class="card">
-            <img src="/assets/img-kuliner.jpg" alt="E-Visa">
+            <img src="https://ft.umj.ac.id/ftumj/gambar/ir-djuanda_1_22-05-22.jpg" alt="Djuanda Kartawidjaya">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident possimus obcaecati at, ad esse placeat laborum doloremque consequuntur eum eligendi.
+              Hari Nusantara yang diperingati setiap tahun berawal dari Deklarasi Djuanda yang dicetuskan pada tanggal 13 Desember 1957 oleh Perdana Menteri Indonesia pada saat itu, Djuanda Kartawidjaya.
             </p>
           </div>
           <div class="card">
-            <img src="/assets/img-pameran.jpg" alt="General Information">
+            <img src="https://pariwisataindonesia.id/wp-content/uploads/2020/11/Kapal-Pinisi-foto-by-isamas54.blogspot.com_.jpg" alt="General Information">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos necessitatibus illum vel! Facilis, doloremque. Corrupti doloribus incidunt nemo obcaecati dolorum, officia libero voluptatem magnam.
+              Kapal Pinisi merupakan simbol warisan budaya dan keterampilan pelaut Bugis-Makassar yang telah mendunia. Hingga kini, kapal Pinisi tidak hanya menjadi alat transportasi tradisional, tetapi juga simbol kekuatan, ketangguhan, dan identitas bangsa maritim Indonesia.
             </p>
           </div>
         </div>
@@ -164,155 +175,20 @@
           <a href="/pages/sejarah.html" class="btn">Baca Sejarah Lengkap</a>
         </div>
       </div>
-      
     </section>
 
-    <!-- Budaya dan Tradisi Section -->
-    <section class="budaya-tradisi" id="budaya-tradisi">
+    <!-- Galeri Alam Nusantara -->
+    <section class="galeri-alam" id="galeri-alam">
       <div class="text">
-        <h4>Tradisi menyatukan bangsa</h4>
-        <h2>Jelajahi keberagaman budaya dari Sabang hingga Merauke</h2>
+        <h4>Keindahan Alam Nusantara</h4>
+        <h2>Pesona alam Nusantara, surga dunia yang memukau hati</h2>
       </div>
       <div class="horizontal-scroll">
-        <div class="photos-item">
-          <!-- budaya 1 -->
-          <div class="image-card">
-            <a href="/pages/gallery-nusantara.html">
-              <img
-                src="/assets/tari-saman.jpg"
-                alt="sumatra"
-                class="card-image"
-              />
-              <div class="card-info">
-                <h3>Pulau Sumatra</h3>
-                <p>
-                  Dari Sabang hingga Merauke, Hari Nusantara merayakan identitas
-                  unik yang membentuk kekayaan warisan budaya kita, bersatu
-                  dalam satu visi.
-                </p>
-              </div>
-            </a>
-          </div>
-
-          <!-- budaya 2 -->
-          <div class="image-card">
-            <a href="/pages/gallery-nusantara.html">
-              <img
-                src="/assets/tradisi-jawa.png"
-                alt="Jawa"
-                class="card-image"
-              />
-              <div class="card-info">
-                <h3>Pulau Jawa</h3>
-                <p>
-                  Dari Sabang hingga Merauke, Hari Nusantara merayakan identitas
-                  unik yang membentuk kekayaan warisan budaya kita, bersatu
-                  dalam satu visi.
-                </p>
-              </div>
-            </a>
-          </div>
-
-          <!-- budaya 3 -->
-          <div class="image-card">
-            <a href="/pages/gallery-nusantara.html">
-              <img
-                src="/assets/tradisi-kalimantan.jpeg"
-                alt="Kalimantan"
-                class="card-image"
-              />
-              <div class="card-info">
-                <h3>Pulau Kalimantan</h3>
-                <p>
-                  Dari Sabang hingga Merauke, Hari Nusantara merayakan identitas
-                  unik yang membentuk kekayaan warisan budaya kita, bersatu
-                  dalam satu visi.
-                </p>
-              </div>
-            </a>
-          </div>
-
-          <!-- budaya 4 -->
-          <div class="image-card">
-            <a href="/pages/gallery-nusantara.html">
-              <img
-                src="/assets/mabodong-toraja.jpg"
-                alt="Sulawesi"
-                class="card-image"
-              />
-              <div class="card-info">
-                <h3>Pulau Sulawesi</h3>
-                <p>
-                  Dari Sabang hingga Merauke, Hari Nusantara merayakan identitas
-                  unik yang membentuk kekayaan warisan budaya kita, bersatu
-                  dalam satu visi.
-                </p>
-              </div>
-            </a>
-          </div>
-
-          <!-- budaya 5 -->
-          <div class="image-card">
-            <a href="/pages/gallery-nusantara.html">
-              <img
-                src="/assets/tradisi-maluku.jpg"
-                alt="Kepulauan Maluku"
-                class="card-image"
-              />
-              <div class="card-info">
-                <h3>Kepulauan Maluku</h3>
-                <p>
-                  Dari Sabang hingga Merauke, Hari Nusantara merayakan identitas
-                  unik yang membentuk kekayaan warisan budaya kita, bersatu
-                  dalam satu visi.
-                </p>
-              </div>
-            </a>
-          </div>
-
-          <!-- budaya 6 -->
-          <div class="image-card">
-            <a href="/pages/gallery-nusantara.html">
-              <img
-                src="/assets/tradisi-nt.jpg"
-                alt="Jawa"
-                class="card-image"
-              />
-              <div class="card-info">
-                <h3>Nusa Tenggara</h3>
-                <p>
-                  Dari Sabang hingga Merauke, Hari Nusantara merayakan identitas
-                  unik yang membentuk kekayaan warisan budaya kita, bersatu
-                  dalam satu visi.
-                </p>
-              </div>
-            </a>
-          </div>
-
-          <!-- budaya 7-->
-          <div class="image-card">
-            <a href="/pages/gallery-nusantara.html">
-              <img
-                src="/assets/tradisi-papua.png"
-                alt="Pulau Papua"
-                class="card-image"
-              />
-              <div class="card-info">
-                <h3>Pulau Papua</h3>
-                <p>
-                  Dari Sabang hingga Merauke, Hari Nusantara merayakan identitas
-                  unik yang membentuk kekayaan warisan budaya kita, bersatu
-                  dalam satu visi.
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
+        <div class="photos-item" id="photos-item"></div>
       </div>
-    </section>
-    
+    </section>    
 
-    <!-- Jadwal Acara Section -->
+    <!-- Kegiatan Hari Nusantara -->
     <section class="jadwal-hari-nusantara" id="jadwal-hari-nusantara">
       <h4>Jadwal dan Rincian</h4>
       <div class="text1">
@@ -322,120 +198,11 @@
           untuk mempererat persatuan bangsa, membangun solidaritas bersama
         </p>
       </div>
-      <div class="event-grid">
-        <!-- Event Cards 1 -->
-        <div class="event-card">
-          <img
-            src="/assets/img-pameran.jpg"
-            alt="Pameran Virtual Nusantara"
-            class="event-image"
-          />
-          <div class="event-info">
-            <h3>Pameran Virtual Nusantara</h3>
-            <span class="event-date">10 Desember 2024</span>
-            <span class="event-location">Virtual</span>
-            <p>
-              Menampilkan foto, video, dan cerita budaya dari seluruh Indonesia
-            </p>
-          </div>
-        </div>
-
-        <!-- Event Cards 2 -->
-        <div class="event-card">
-          <img
-            src="/assets/img-upacara.jpg"
-            alt="Pameran Virtual Nusantara"
-            class="event-image"
-          />
-          <div class="event-info">
-            <h3>Upacara Peringatan Hari Nusantara</h3>
-            <span class="event-date">13 Desember 2024</span>
-            <span class="event-location">Pantai Daerah</span>
-            <p>
-              Upacara peringatan Hari Nusantara dilaksanakan di wilayah sekitar
-              perairan masing-masing daerah
-            </p>
-          </div>
-        </div>
-
-        <!-- Event Cards 3 -->
-        <div class="event-card">
-          <img
-            src="/assets/img-karnaval.jpg"
-            alt="Karnaval Budaya Laut"
-            class="event-image"
-          />
-          <div class="event-info">
-            <h3>Karnaval Budaya Laut</h3>
-            <span class="event-date">13 Desember 2024</span>
-            <span class="event-location">Pantai Daerah</span>
-            <p>
-              Parade kapal tradisional dihiasi seni dan budaya dari berbagai
-              daerah
-            </p>
-          </div>
-        </div>
-
-        <!-- Event Cards 4 -->
-        <div class="event-card">
-          <img
-            src="/assets/img-kuliner.jpg"
-            alt="Pameran Virtual Nusantara"
-            class="event-image"
-          />
-          <div class="event-info">
-            <h3>Festival Kuliner Nusantara</h3>
-            <span class="event-date">13 Desember 2024</span>
-            <span class="event-location">Pantai Daerah</span>
-            <p>
-              Menyajikan makanan khas pesisir seperti ikan bakar, coto Makassar,
-              hingga papeda
-            </p>
-          </div>
-        </div>
-
-        <!-- Event Cards 5 -->
-        <div class="event-card">
-          <img
-            src="/assets/img-tari.jpeg"
-            alt="Pentas Seni Budaya Laut"
-            class="event-image"
-          />
-          <div class="event-info">
-            <h3>Pentas Seni Budaya Laut</h3>
-            <span class="event-date">13 Desember 2024</span>
-            <span class="event-location">Pantai Daerah</span>
-            <p>
-              Pertunjukan tari tradisional yang terinspirasi dari laut, seperti
-              Tari Cakalele
-            </p>
-          </div>
-        </div>
-
-        <!-- Event Cards 6 -->
-        <div class="event-card">
-          <img
-            src="/assets/img-konser.jpg"
-            alt="Penutupan dan Konser Musik"
-            class="event-image"
-          />
-          <div class="event-info">
-            <h3>Penutupan dan Konser Musik</h3>
-            <span class="event-date">13 Desember 2024</span>
-            <span class="event-location">Pantai Daerah</span>
-            <p>
-              Penutupan acara sekaligus konser Musik Nusantara yang menampilkan
-              musik budaya dari berbagai daerah di Indonesia
-            </p>
-          </div>
-        </div>
-      </div>
-
+      <div class="event-grid" id="event-grid"></div>
       <div class="live-streaming">
-        <a href="https://www.youtube.com/" class="btn" target="_blank"
-          >Ikuti Live Streaming</a>
+        <a href="https://www.youtube.com/" class="btn" target="_blank">Ikuti Live Streaming</a>
       </div>
-    </section>
+    </section>    
 
     <!-- Footer -->
     <footer class="footer">
@@ -473,5 +240,7 @@
 
     <script src="/js/background.js"></script>
     <script src="/js/header.js"></script>
+    <script src="/js/galeri-alam-nusantara.js"></script>
+    <script src="/js/kegiatan-hari-nusantara.js"></script>
   </body>
 </html>

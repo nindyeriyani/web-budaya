@@ -1,14 +1,15 @@
+/* Sejarah Section */
 .sejarah {
   display: flex;
   justify-content: center;
-  height: 85vh;
+  height: 75vh;
   max-width: 1800px;
   margin: 50px auto;
-  padding-left: 90px;
-  padding-right: 90px;
+  padding: 0 90px;
   font-family: "Montserrat", sans-serif;
 }
 
+/* Text Section */
 .text h4 {
   font-size: 18px;
   font-weight: 400;
@@ -16,27 +17,30 @@
 }
 
 .text h2 {
-  width: 500px;
+  width: 800px;
   font-size: 31px;
-  margin: 40px 0 30px 0;
   font-weight: 600;
   color: #000;
+  margin: 40px 0 30px;
 }
 
+/* Cards Container */
 .cards {
   display: flex;
   justify-content: center;
-  gap: 24px;
   flex-wrap: wrap;
+  gap: 24px;
 }
 
+/* Single Card */
 .card {
   width: 30%;
 }
 
 .card img {
   width: 100%;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
   display: block;
   border-radius: 10px;
 }
@@ -58,10 +62,77 @@
   padding: 10px 20px;
   font-size: 20px;
   font-weight: 700;
-  background-color: transparent;
   color: #000;
+  background-color: transparent;
   border: 2px solid #000;
   border-radius: 30px;
   cursor: pointer;
   transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Mobile (Smartphone) */
+@media (max-width: 768px) {
+  .sejarah {
+    padding: 0 20px;
+  }
+
+  .text h2 {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .text h4 {
+    text-align: center;
+  }
+
+  .cards {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #142b4f;
+    margin-top: 0;
+  }
+
+  .cards .card:nth-child(n+2) {
+    display: none;
+  }
+
+  .sejarah-pages {
+    margin-top: 80px;
+  }
+
+  .sejarah-pages a {
+    font-size: 16px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .sejarah {
+    padding: 0 40px;
+    height: auto;
+    margin: 25px auto;
+  }
 }

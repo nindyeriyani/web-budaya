@@ -10,3 +10,13 @@
       header.classList.remove("scrolled");
     }
   });
+
+  // Ambil elemen hamburger menu dan navigasi
+  const hamburgerMenu = document.getElementById("hamburger-menu");
+  const navMenu = document.getElementById("nav-menu");
+
+  // Tambahkan event listener untuk klik pada hamburger menu
+  hamburgerMenu.addEventListener("click", () => {
+    navMenu.classList.toggle("active"); // Toggle kelas "active"
+  });
+

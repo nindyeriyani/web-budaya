@@ -1,3 +1,4 @@
+/* Font Face */
 @font-face {
   font-family: 'JavaFont';
   src: url('/fonts/qidung-swara-demo.regular.otf') format('opentype');
@@ -5,9 +6,10 @@
   font-style: normal;
 }
 
+/* Hero Section */
 .hero {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   background: url(/assets/bg-heor1.jpg) center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -16,16 +18,14 @@
   transition: background-image 1s ease-in-out;
 }
 
-.hero-content {
-  max-width: 800px;
-}
-
+/* Hero Logo */
 .hero img {
   width: 150px;
   position: absolute;
   top: 50px;
 }
 
+/* Hero Heading */
 .hero h1 {
   font-family: 'JavaFont', sans-serif;
   font-weight: 500;
@@ -35,6 +35,7 @@
   max-width: 890px;
 }
 
+/* Hero Paragraph */
 .hero p {
   font-size: 20px;
   font-weight: 500;
@@ -42,11 +43,13 @@
   max-width: 650px;
 }
 
+/* Buttons Container */
 .buttons {
   display: flex;
   gap: 15px;
 }
 
+/* Button Styles */
 .btn {
   padding: 10px 20px;
   font-size: 1rem;
@@ -58,6 +61,7 @@
   text-decoration: none;
 }
 
+/* Primary Button */
 .btn.primary {
   background-color: #fff;
   color: #000;
@@ -65,12 +69,55 @@
   border: none;
 }
 
+/* Secondary Button */
 .btn.secondary {
   background-color: transparent;
   color: #fff;
   border: 2px solid #fff;
 }
 
+/* Button Hover */
 .btn:hover {
   opacity: 0.7;
+}
+
+/* Mobile (Smartphone) */
+/* @media (max-width: 767px) {
+  .hero {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+    line-height: 1.1;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .hero p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .hero img {
+    width: 100px;
+    top: 20px;
+  }
+} */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .hero h1 {
+    font-size: 90px;
+  }
 }

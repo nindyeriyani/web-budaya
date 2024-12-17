@@ -1,30 +1,103 @@
-.hero {
+/* Hero Section */
+.hero-img {
   height: 50vh;
-  background: url(/assets/bg-footer.jpg) center/cover no-repeat;
+  background: url("https://imgx.parapuan.co/crop/0x0:0x0/x/photo/2022/08/17/whatsapp-image-2022-08-17-at-44-20220817094337.jpeg") center/cover no-repeat;
 }
 
-.sejarah {
-  /* width: 60%; */
+/* Sejarah Section */
+.sejarah-info {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .container {
   width: 50%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
 }
 
 .container h1 {
   font-size: 50px;
   font-weight: 700;
   margin-top: 20px;
+  text-align: center; /* Pusatkan judul untuk layar kecil */
 }
 
 .container p {
   text-align: justify;
+  margin: 10px 0;;
+}
+
+.container img {
+  width: 100%; /* Gambar akan responsif dan memenuhi lebar container */
+  height: auto;
   margin-top: 20px;
+  border-radius: 8px; /* Tambahkan sudut melengkung untuk estetika */
+}
+
+.container p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.container ul {
+  margin-left: 20px;
   margin-bottom: 20px;
+}
+
+.container ul li {
+  margin-bottom: 10px;
+}
+
+strong {
+  color: #007bff;
+}
+
+em {
+  font-style: italic;
+}
+
+/* === RESPONSIVE DESIGN === */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .container {
+    width: 80%; /* Lebar container diperbesar untuk layar tablet */
+  }
+
+  .container h1 {
+    font-size: 40px; /* Ukuran font lebih kecil untuk tablet */
+  }
+
+  .container p {
+    font-size: 1rem; /* Ukuran font paragraf disesuaikan */
+  }
+}
+
+/* Smartphone */
+@media (max-width: 768px) {
+  .hero {
+    height: 30vh; /* Tinggi hero dikurangi */
+  }
+
+  .container {
+    width: 95%; /* Lebar container hampir penuh */
+    padding: 10px; /* Tambahkan padding */
+  }
+
+  .container h1 {
+    font-size: 28px; /* Ukuran font judul lebih kecil */
+    margin-top: 10px;
+  }
+
+  .container p {
+    font-size: 0.9rem; /* Ukuran font paragraf lebih kecil */
+    line-height: 1.5; /* Tambahkan jarak antar baris */
+  }
+
+  .container img {
+    margin-top: 10px; /* Kurangi jarak antar gambar */
+  }
 }

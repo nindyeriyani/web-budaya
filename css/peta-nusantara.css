@@ -81,21 +81,8 @@ h1 {
   top: 55%;
 }
 
-@media (max-width: 768px) {
-  h1 {
-    font-size: 40px;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 30px;
-  }
-}
-
 /* tooltip icon */
 .tooltip-container {
-  /* position: relative;*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,17 +122,17 @@ h1 {
 
 .tooltip-kalimantan {
   left: 38%;
-  top: 13%;
+  top: 44%;
 }
 
 .tooltip-sulawesi {
   left: 48%;
-  bottom: 28%;
+  bottom: 26%;
 }
 
 .tooltip-maluku {
   right: 23%;
-  top: 30%;
+  top: 28%;
 }
 
 .tooltip-papua {
@@ -169,4 +156,167 @@ h1 {
 
 .tooltip-sumatra a:hover, .tooltip-jawa a:hover, .tooltip-nusa a:hover, .tooltip-kalimantan a:hover, .tooltip-sulawesi a:hover, .tooltip-maluku a:hover, .tooltip-papua a:hover{
   text-decoration: underline;
+}
+
+/* Responsif untuk ukuran layar lebih kecil */
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .icon {
+    width: 2%;
+  }
+
+  .tooltip-sumatra, 
+  .tooltip-jawa, 
+  .tooltip-nusa, 
+  .tooltip-kalimantan, 
+  .tooltip-sulawesi, 
+  .tooltip-maluku, 
+  .tooltip-papua {
+    font-size: 10px;
+    padding: 15px;
+
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .icon {
+    width: 3%;
+  }
+
+  .tooltip-sumatra, 
+  .tooltip-jawa, 
+  .tooltip-nusa, 
+  .tooltip-kalimantan, 
+  .tooltip-sulawesi, 
+  .tooltip-maluku, 
+  .tooltip-papua {
+    font-size: 9px;
+    padding: 10px;
+  }
+
+  .tooltip-sumatra {
+    left: 5%;
+    top: 50%;
+  }
+  
+  .tooltip-jawa {
+    left: 16%;
+    bottom: 1%;
+  }
+  
+  .tooltip-nusa {
+    left: 56%;
+    bottom: 2%;
+  }
+  
+  .tooltip-kalimantan {
+    left: 40%;
+    top: 1%;
+  }
+  
+  .tooltip-sulawesi {
+    left: 36%;
+    bottom: 26%;
+  }
+  
+  .tooltip-maluku {
+    right: 23%;
+    top: 16%;
+  }
+  
+  .tooltip-papua {
+    bottom: 3%;
+  }
+
+  .tooltip-sumatra a, 
+  .tooltip-jawa a, 
+  .tooltip-nusa a, 
+  .tooltip-kalimantan a, 
+  .tooltip-sulawesi a, 
+  .tooltip-maluku a, 
+  .tooltip-papua a {
+    font-size: 10px;
+    margin-top: 1px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .icon {
+    width: 4%;
+  }
+
+  .tooltip-sumatra, 
+  .tooltip-jawa, 
+  .tooltip-nusa, 
+  .tooltip-kalimantan, 
+  .tooltip-sulawesi, 
+  .tooltip-maluku, 
+  .tooltip-papua {
+    width: 60px;
+    height: auto;
+    font-size: 4px;
+    padding: 8px;
+  }
+
+  .tooltip-sumatra {
+    left: 5%;
+    top: 54%;
+  }
+  
+  .tooltip-jawa {
+    left: 16%;
+    bottom: 2%;
+  }
+  
+  .tooltip-nusa {
+    left: 56%;
+    bottom: 2%;
+  }
+  
+  .tooltip-kalimantan {
+    left: 40%;
+    top: 12%;
+  }
+  
+  .tooltip-sulawesi {
+    left: 38%;
+    bottom: 26%;
+  }
+  
+  .tooltip-maluku {
+    right: 23%;
+    top: 28%;
+  }
+  
+  .tooltip-papua {
+    right: 3%;
+    bottom: 10%;
+  }
+
+  .tooltip-sumatra a, 
+  .tooltip-jawa a, 
+  .tooltip-nusa a, 
+  .tooltip-kalimantan a, 
+  .tooltip-sulawesi a, 
+  .tooltip-maluku a, 
+  .tooltip-papua a {
+    font-size: 4px;
+    margin-top: 1px;
+  }
 }
