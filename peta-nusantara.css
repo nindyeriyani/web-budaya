@@ -1,7 +1,7 @@
 /* Font-face untuk font custom */
 @font-face {
   font-family: 'JavaFont';
-  src: url('/fonts/qidung-swara-demo.regular.otf') format('opentype');
+  src: url('qidung-swara-demo.regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
