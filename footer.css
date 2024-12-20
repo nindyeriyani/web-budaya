@@ -1,6 +1,6 @@
 /* Footer Section */
 .footer {
-  background: url('/assets/bg-footer.jpg') no-repeat center center/cover;
+  background: url('bg-footer.jpg') no-repeat center center/cover;
   padding: 40px 20px;
   min-height: 50vh;
 }
