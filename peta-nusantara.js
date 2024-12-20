@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     const icon = document.createElement("img");
     icon.classList.add("icon", "point-icon", pulau.className);
-    icon.src = "/assets/icon-point.png";
+    icon.src = "icon-point.png";
     icon.alt = `Point ${pulau.name}`;
     tooltipContainer.appendChild(icon);
   
