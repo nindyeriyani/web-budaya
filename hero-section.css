@@ -1,7 +1,7 @@
 /* Font Face */
 @font-face {
   font-family: 'JavaFont';
-  src: url('/fonts/qidung-swara-demo.regular.otf') format('opentype');
+  src: url('qidung-swara-demo.regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -10,7 +10,7 @@
 .hero {
   position: relative;
   min-height: 100vh;
-  background: url(/assets/bg-heor1.jpg) center/cover no-repeat;
+  background: url(bg-heor1.jpg) center/cover no-repeat;
   display: flex;
   align-items: center;
   padding: 80px;
