@@ -1,10 +1,10 @@
 // Daftar gambar background
 const backgrounds = [
-  '/assets/bg-hero1.jpg',
-  '/assets/bg-hero2.jpg',
-  '/assets/bg-hero3.jpg',
-  '/assets/bg-hero4.jpg',
-  '/assets/bg-footer.jpg',
+  'bg-hero1.jpg',
+  'bg-hero2.jpg',
+  'bg-hero3.jpg',
+  'bg-hero4.jpg',
+  'bg-footer.jpg',
 ];
 
 let currentIndex = 0; // Indeks gambar saat ini

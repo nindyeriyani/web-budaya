@@ -5,42 +5,42 @@ const events = [
     date: "10 Desember 2024",
     location: "Virtual",
     description: "Menampilkan foto, video, dan cerita budaya dari seluruh Indonesia",
-    imageUrl: "/assets/img-pameran.jpg"
+    imageUrl: "img-pameran.jpg"
   },
   {
     title: "Upacara Peringatan Hari Nusantara",
     date: "13 Desember 2024",
     location: "Pantai Daerah",
     description: "Upacara peringatan Hari Nusantara dilaksanakan di wilayah sekitar perairan masing-masing daerah",
-    imageUrl: "/assets/img-upacara.jpg"
+    imageUrl: "img-upacara.jpg"
   },
   {
     title: "Karnaval Budaya Laut",
     date: "13 Desember 2024",
     location: "Pantai Daerah",
     description: "Parade kapal tradisional dihiasi seni dan budaya dari berbagai daerah",
-    imageUrl: "/assets/img-karnaval.jpg"
+    imageUrl: "img-karnaval.jpg"
   },
   {
     title: "Festival Kuliner Nusantara",
     date: "13 Desember 2024",
     location: "Pantai Daerah",
     description: "Menyajikan makanan khas pesisir seperti ikan bakar, coto Makassar, hingga papeda",
-    imageUrl: "/assets/img-kuliner.jpg"
+    imageUrl: "img-kuliner.jpg"
   },
   {
     title: "Pentas Seni Budaya Laut",
     date: "13 Desember 2024",
     location: "Pantai Daerah",
     description: "Pertunjukan tari tradisional yang terinspirasi dari laut, seperti Tari Cakalele",
-    imageUrl: "/assets/img-tari.jpeg"
+    imageUrl: "img-tari.jpeg"
   },
   {
     title: "Penutupan dan Konser Musik",
     date: "13 Desember 2024",
     location: "Pantai Daerah",
     description: "Penutupan acara sekaligus konser Musik Nusantara yang menampilkan musik budaya dari berbagai daerah di Indonesia",
-    imageUrl: "/assets/img-konser.jpg"
+    imageUrl: "img-konser.jpg"
   }
 ];
 
